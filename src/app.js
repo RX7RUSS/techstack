@@ -6,6 +6,7 @@ import reducers from './reducers';
 import { Header,
          CardSection,
          Button,
+         Input
        } from './components/common';
 
 const App = () => {
@@ -13,6 +14,9 @@ const App = () => {
     <Provider store={createStore(reducers)}>
     <View>
       <Header headerText="Tech-Stack" />
+      <CardSection>
+        <Input />
+      </CardSection>
       <CardSection>
         <Button>Press Me!</Button>
       </CardSection>
