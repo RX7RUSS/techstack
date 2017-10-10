@@ -18,7 +18,7 @@ const styles = {
     fontFamily: 'Avenir-Black',
     alignSelf: 'center',
     color: '#000',
-    fontSize: 15,
+    fontSize: 12,
     fontWeight: '600',
     paddingTop: 10,
     paddingBottom: 10
@@ -27,9 +27,10 @@ const styles = {
     flex: 1,
     alignSelf: 'stretch',
     backgroundColor: '#e1eae9',
-    borderRadius: 5,
+    borderRadius: 35,
     borderWidth: 1,
     borderColor: '#000',
+    marginTop: 10,
     marginLeft: 5,
     marginRight: 5,
   }
