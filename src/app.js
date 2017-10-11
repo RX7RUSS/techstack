@@ -15,7 +15,7 @@ const App = () => {
     <View>
       <Header headerText="Tech-Stack" />
       <CardSection>
-        <Button>Im a cool button. Press Me!</Button>
+        <Button>This is a great button. Press Me!</Button>
       </CardSection>
     </View>
     </Provider>
