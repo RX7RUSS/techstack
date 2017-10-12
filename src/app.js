@@ -14,9 +14,6 @@ const App = () => {
     <Provider store={createStore(reducers)}>
     <View>
       <Header headerText="Tech-Stack" />
-      <CardSection>
-        <Button>This is a great button. Press Me!</Button>
-      </CardSection>
     </View>
     </Provider>
   );
