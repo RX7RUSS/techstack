@@ -9,7 +9,9 @@ class ListItem extends Component {
 
     return (
       <CardSection>
-        <Text style={titleStyle}>{this.props.library.title}</Text>
+        <Text style={titleStyle}>
+          {this.props.library.title}
+        </Text>
       </CardSection>
     )
   }
